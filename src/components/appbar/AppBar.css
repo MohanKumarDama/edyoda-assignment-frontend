@@ -1,0 +1,56 @@
+.btnlink {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 42px;
+    gap: 10px;
+
+    width: 166px;
+    height: 40px;
+
+    background: linear-gradient(266.79deg, #0048FF 4.63%, #0096FF 100%);
+    border-radius: 52px;
+}
+
+.jointxt {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    font-size: 20px;
+    /* identical to box height */
+    display: flex;
+    color: #FFFFFF;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.joinClass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 30px;
+    margin-top: 30px;
+    gap: 50px;
+}
+
+.login {
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+.navitems{
+    font-family: 'Raleway';
+}

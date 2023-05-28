@@ -1,0 +1,153 @@
+.selctor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px 10px 10px 10px;
+}
+
+.signup {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 5px;
+}
+
+.heading {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 125.3%;
+    /* identical to box height, or 30px */
+    color: #3C4852;
+}
+
+.total {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.subtotal {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #3C4852;
+}
+
+.maintotal {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(135deg, rgba(222, 67, 19, 0.2) 0%, rgba(222, 67, 19, 0.2) 0.75%, rgba(222, 67, 19, 0.2) 2.92%, rgba(222, 68, 20, 0.2) 6.37%, rgba(223, 69, 21, 0.2) 10.97%, rgba(223, 72, 22, 0.2) 16.59%, rgba(224, 75, 24, 0.2) 23.1%, rgba(225, 80, 27, 0.2) 30.37%, rgba(227, 86, 31, 0.2) 38.27%, rgba(229, 94, 36, 0.2) 46.66%, rgba(231, 104, 43, 0.2) 55.41%, rgba(235, 117, 51, 0.2) 64.39%, rgba(238, 132, 60, 0.2) 73.47%, rgba(243, 149, 71, 0.2) 82.52%, rgba(248, 169, 84, 0.2) 91.41%, rgba(254, 193, 99, 0.2) 100%);
+    border-radius: 8px;
+    border: 1px solid #DE4313
+}
+
+.clock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+
+    color: #DE4313;
+}
+
+.tag {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #DE4313;
+}
+
+.final {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+
+    color: #3C4852;
+
+}
+
+.finaldiv {
+    display: flex;
+    align-self: center;
+}
+
+.gst {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+
+    color: #3C4852;
+}
+
+.gst2 {
+    font-weight: 400;
+}
+
+.gst3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0.03em;
+
+    color: #3C4852;
+}
+
+.background-container {
+    background-image: url('../../../public/Background.jpeg');
+    background-size: cover;
+    width: 100vw;
+    /* height: 100vh; */
+}
+
+.content {
+    /* padding :20px;
+color: white; */
+}
+.text{
+    font-size: 32px;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
+
+.content_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.spanitems{
+    color: #0096FF;
+}
+.razor{
+    width:120px;
+    height: 42px;
+}
